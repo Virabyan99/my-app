@@ -8,6 +8,8 @@ export default async function Page() {
       <Suspense fallback="Loading...">
         <PostsList />
       </Suspense>
+
+      
     </main>
   )
 }
