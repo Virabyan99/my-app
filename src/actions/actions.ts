@@ -23,6 +23,8 @@ export async function createPost(formData: FormData) {
     },
   })
   
+  
   // revalidate
   revalidatePath('/posts')
+  redirect('/posts');
 }
